@@ -14,7 +14,7 @@ depends 'apt'
 depends 'build-essential'
 depends 'chef-sugar'
 depends 'git'
-depends 'mysql' # needed in the application_python recipe
+depends 'mysql', '~> 5.0'
 depends 'nginx'
 depends 'platformstack'
 depends 'python'
